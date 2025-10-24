@@ -1,0 +1,37 @@
+img{
+    height: 3%;
+    width:3%;
+    min-width: 30px;
+    min-height:30px;
+}
+.nav{
+    top:0%;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.upper-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    border: 2px solid red;
+    padding: 20px;
+    gap: 10px;
+}
+
+h1{
+    text-align: left;
+    flex-grow:1;
+    
+    
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    border: 2px solid blue;
+}

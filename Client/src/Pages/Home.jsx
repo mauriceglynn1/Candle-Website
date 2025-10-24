@@ -1,10 +1,13 @@
+import { Header } from "../Components/Header"
+import "../styles/Home.css"
 
 
 export function Home(){
     return(
-        <>
-            <h1>This is my Home page</h1>
-        </>
+        <body>
+            <Header/>
+            
+        </body>
         
     );
 }
